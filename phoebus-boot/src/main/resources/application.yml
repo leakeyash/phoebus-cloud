@@ -1,0 +1,9 @@
+server:
+ # port: 8888
+  port: 8443
+  port-http: 8001
+  ssl:
+    key-store: test.keystore
+    key-store-password: 111111
+    key-store-type: JKS
+    key-alias: testalias

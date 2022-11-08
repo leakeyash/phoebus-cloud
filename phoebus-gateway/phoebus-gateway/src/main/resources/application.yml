@@ -1,0 +1,7 @@
+server:
+  port: 9023
+  servlet:
+    context-path: /${spring.application.name}
+spring:
+  application:
+    name: gateway
